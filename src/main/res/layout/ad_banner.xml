@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.ott.gadget.extview.FrameLayoutExt
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/h_banner"
+    android:background="@color/C15">
+
+    <com.huawei.ott.composite.banner.PosterViewPager
+        android:id="@+id/poster_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/h_poster"
+        android:overScrollMode="never"
+        android:soundEffectsEnabled="false">
+
+    </com.huawei.ott.composite.banner.PosterViewPager>
+
+
+   <!-- <View
+        android:id="@+id/shade_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_mask_height"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ads_low_mask_m2"
+        />-->
+
+    <com.huawei.ott.gadget.extview.RelativeLayoutExt
+        android:id="@+id/no_data_for_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/C12"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <com.huawei.ott.gadget.nodata.NoDataView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/no_result_layout_max_width"/>
+    </com.huawei.ott.gadget.extview.RelativeLayoutExt>
+</com.huawei.ott.gadget.extview.FrameLayoutExt>

@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+}
+repositories {
+    /**
+     * for aar package
+     */
+    flatDir {
+		dirs '../../../libs/self_lib/ott-sdk/'
+		dirs '../../../libs/self_lib/ott-vsp/'
+    }
+}
+dependencies {
+    compile project(':ott-gadget')
+    compile project(':ott-sdk')
+    compile project(':ott-composite-player')
+    compile 'com.android.support:recyclerview-v7:22.1.1'
+    compile 'com.android.support:palette-v7:22.2.1'
+}

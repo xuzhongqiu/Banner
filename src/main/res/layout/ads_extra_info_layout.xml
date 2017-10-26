@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/h_banner"
+    android:paddingLeft="@dimen/extra_info_padding_h"
+    android:paddingRight="@dimen/extra_info_padding_h">
+
+
+        <com.huawei.ott.gadget.extview.LinearLayoutExt
+            android:id="@+id/point_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/point_layout_margin_bottom"
+            android:gravity="center_vertical"
+           >
+
+            <GridView
+                android:id="@+id/point_gridview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:horizontalSpacing="@dimen/horizontal_spacing"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none"
+                />
+        </com.huawei.ott.gadget.extview.LinearLayoutExt>
+
+        <com.huawei.ott.gadget.extview.TextViewExt
+            android:id="@+id/banner_vod_introduce"
+            style="@style/T231"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/point_layout"
+            android:layout_marginBottom="@dimen/introduce_margin_bottom"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/C25"/>
+
+
+        <com.huawei.ott.gadget.extview.TextViewExt
+            android:id="@+id/banner_vod_introduce_next"
+            style="@style/T231"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/point_layout"
+            android:layout_marginBottom="@dimen/introduce_margin_bottom"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/C25"/>
+
+
+        <com.huawei.ott.gadget.extview.TextViewExt
+            android:id="@+id/banner_vod_name"
+            style="@style/T292"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/banner_vod_introduce"
+            android:layout_marginBottom="@dimen/name_margin_bottom"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="@dimen/banner_name_linespacing"
+            android:maxLines="2"
+            android:maxWidth="@dimen/name_max_width"
+            android:textColor="@color/C21"
+            />
+
+        <com.huawei.ott.gadget.extview.TextViewExt
+            android:id="@+id/banner_vod_name_next"
+            style="@style/T292"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/banner_vod_introduce"
+            android:layout_marginBottom="@dimen/name_margin_bottom"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="@dimen/banner_name_linespacing"
+            android:maxLines="2"
+            android:maxWidth="@dimen/name_max_width"
+            android:textColor="@color/C21"
+            />
+
+</RelativeLayout>

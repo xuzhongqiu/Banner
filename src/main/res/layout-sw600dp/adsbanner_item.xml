@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <com.huawei.ott.gadget.extview.ImageViewExt
+        android:id="@+id/item_banner_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_image_240"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/poster_bottom_layout_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ads_low_mask_m2"
+        />
+
+</RelativeLayout>

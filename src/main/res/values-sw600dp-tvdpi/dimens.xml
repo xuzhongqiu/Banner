@@ -1,0 +1,35 @@
+<resources>
+    <dimen name="h_poster">300.47dp</dimen>
+    <dimen name="extra_info_padding_h">18.78dp</dimen>
+    <dimen name="small_poster_margin">18.78dp</dimen>
+    <dimen name="small_poster_padding">11.27dp</dimen>
+    <dimen name="small_poster_margin_left">18.78dp</dimen>
+    <dimen name="small_poster_margin_right">18.78dp</dimen>
+    <dimen name="small_poster_margin_bottom">15.02dp</dimen>
+    <dimen name="tv_name_height">30.05dp</dimen>
+    <dimen name="logo_height">75.12dp</dimen>
+    <dimen name="logo_width">277.93dp</dimen>
+    <dimen name="small_poster_pad_h">112.68dp</dimen>
+    <dimen name="extra_info_margin_t">78.12dp</dimen>
+    <dimen name="point_width">6.01dp</dimen>
+
+    <dimen name="name_margin_bottom">4.51dp</dimen>
+
+    <dimen name="name_max_width">450.70dp</dimen>
+
+    <dimen name="banner_mask_height">141.22dp</dimen>
+    <dimen name="banner_name_linespacing">-3.00dp</dimen>
+
+    <dimen name="introduce_margin_bottom">120.19dp</dimen>
+
+    <dimen name="ads_preview_layout_height">116.43dp</dimen>
+
+    <dimen name="ads_preview_layout_padding_left">18.78dp</dimen>
+
+    <dimen name="ads_preview_item_padding">15.02dp</dimen>
+
+    <dimen name="ads_preview_item_poster_width">157.75dp</dimen>
+
+    <dimen name="ads_preview_item_layout_width">165.26dp</dimen>
+</resources>
+

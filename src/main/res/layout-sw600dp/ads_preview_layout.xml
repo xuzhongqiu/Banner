@@ -1,0 +1,16 @@
+<com.huawei.ott.gadget.extview.LinearLayoutExt xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/small_poster_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ads_preview_layout_height"
+    android:layout_gravity="bottom"
+    android:background="@color/C12"
+    android:paddingLeft="@dimen/ads_preview_layout_padding_left">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/small_poster_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="@dimen/ads_preview_item_padding"
+        android:paddingTop="@dimen/ads_preview_item_padding" />
+
+</com.huawei.ott.gadget.extview.LinearLayoutExt>
